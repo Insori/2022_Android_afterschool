@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/quote_text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="명언의 내용을 입력하세요."/>
+
+    <EditText
+        android:id="@+id/quote_from_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="명언의 출처를 입력하세요."/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/quote_delete_btn"
+            android:text="삭제"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/quote_modify_btn"
+            android:text="수정"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

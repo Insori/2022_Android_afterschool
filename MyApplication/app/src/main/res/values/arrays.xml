@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_str_array">
+        <item>선택지 1</item>
+        <item>선택지 2</item>
+        <item>선택지 3</item>
+        <!--{"선택지 1", "선택지 2", "선택지 3"}-->
+    </string-array>
+</resources>

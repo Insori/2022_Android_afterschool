@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mirim/AndroidStudioProjects/LotteryApp/app/src/main/res/layout/activity_lottery_main.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/Mirim/AndroidStudioProjects/LotteryApp/app/src/main/res/layout/activity_lottery_num_list.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/Mirim/AndroidStudioProjects/LotteryApp/app/src/main/res/layout/activity_lotto_main.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/Mirim/AndroidStudioProjects/LotteryApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Mirim/AndroidStudioProjects/LotteryApp/app/src/main/res/layout/lotto_item.xml" value="0.20018115942028986" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

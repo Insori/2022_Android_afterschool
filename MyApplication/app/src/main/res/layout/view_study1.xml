@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--TextView-->
+        <TextView
+            android:text="Hello"
+            android:textColor="#FF0000"
+            android:textSize="24dp"
+            android:textStyle="bold|italic"
+            android:background="#00FF00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--ImageView-->
+        <ImageView
+            android:src="@drawable/dog"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <!--Button-->
+        <!--false를 써야 대소문자 같이 나옴-->
+        <Button
+            android:id="@+id/button2"
+            android:text="Click"
+            android:textAllCaps="false"
+            android:drawableLeft="@android:drawable/ic_menu_add"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <ToggleButton
+            android:id="@+id/my_toggle_button"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:hint="패스워드 입력"
+            android:inputType="number"
+            android:maxLength="6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
