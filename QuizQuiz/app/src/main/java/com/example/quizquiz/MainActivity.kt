@@ -29,6 +29,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         db = QuizDatabase.getInstance(this)
+
+        Thread(Runnable {
+            for(quiz in db.quizDAO().getAll()) {
+            Log.d("mytag", quiz.toString())
+            }
+        }).start()
+
 //        db.quizDAO().insert(
 //            Quiz(type="OX", question="asdf", answer = "", category="?+")
 //        )
@@ -138,10 +145,9 @@ class MainActivity : AppCompatActivity() {
                                 guesses=choiceList))
                     }
                 }
-
-                for(quiz in quizList) {
-                    db.quizDAO().insert(quiz)
-                }
+            }
+            for(quiz in quizList) {
+                db.quizDAO().insert(quiz)
             }
         }
     }
