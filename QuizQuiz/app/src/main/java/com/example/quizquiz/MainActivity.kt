@@ -71,6 +71,12 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.frame, QuizListFragment())
                         .commit()
                 }
+                R.id.quiz_add -> {
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.frame, QuizCreateFragment())
+                        .commit()
+                }
             }
 
             drawerLayout.closeDrawers()
